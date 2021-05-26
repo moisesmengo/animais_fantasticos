@@ -16,6 +16,10 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animais Fantásticos</title>
+    
+    <script>
+      document.documentElement.className += ' js'
+    </script>
   </head>
   <body>
     <nav class="menu">
@@ -30,7 +34,7 @@
     <section class="grid-section animais" id="animais">
       <h1 class="titulo">Animais Fantásticos - Nordeste</h1>
 
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu">
         <li>
           <img src="img/i1.jpg" alt="animal" />
         </li>
@@ -51,7 +55,7 @@
         </li>
       </ul>
 
-      <div class="animais-descricao">
+      <div class="animais-descricao js-tab-content" >
         <section>
           <h2>Guaxinim</h2>
           <p>
@@ -60,13 +64,7 @@
             repudiandae debitis maxime laborum? Sit architecto perspiciatis
             enim.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
+           
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
@@ -90,6 +88,13 @@
             fuga, iste similique tenetur rerum obcaecati.
           </p>
           <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
+            fuga, iste similique tenetur rerum obcaecati.
+          </p>
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
             alias labore doloribus.
@@ -98,19 +103,6 @@
 
         <section>
           <h2>Preá</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
@@ -132,11 +124,6 @@
             nesciunt est voluptates dolorem reprehenderit illo dolores quam!
             Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
             fuga, iste similique tenetur rerum obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
           </p>
         </section>
 
@@ -184,7 +171,7 @@
           </p>
         </section>
       </div>
-    </section>
+    </section>  
 
     <section class="faq grid-section" id="faq">
       <h1 class="titulo">FAQ</h1>
