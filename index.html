@@ -16,211 +16,228 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animais Fantásticos</title>
-    
+
     <script>
-      document.documentElement.className += ' js'
+      document.documentElement.className += " js";
     </script>
   </head>
   <body>
-    <nav class="menu">
-      <ul>
-        <li><a href="#animais">Animais</a></li>
-        <li><a href="#faq">Faq</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="https://github.com/moisesmengo">Dev →</a></li>
-      </ul>
-    </nav>
+    <div class="grid-container">
+      <nav class="menu js-menu">
+        <ul>
+          <li><a href="#animais">Animais</a></li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a data-modal="abrir" href="login.html">Login →</a>
+          </li>
+        </ul>
+      </nav>
 
-    <section class="grid-section animais" id="animais">
-      <h1 class="titulo">Animais Fantásticos - Nordeste</h1>
+      <section class="grid-section animais js-scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos - Nordeste</h1>
 
-      <ul class="animais-lista js-tabmenu">
-        <li>
-          <img src="img/i1.jpg" alt="animal" />
-        </li>
-        <li>
-          <img src="img/i2.jpg" alt="animal" />
-        </li>
-        <li>
-          <img src="img/i3.jpg" alt="animal" />
-        </li>
-        <li>
-          <img src="img/i4.jpg" alt="animal" />
-        </li>
-        <li>
-          <img src="img/i5.jpg" alt="animal" />
-        </li>
-        <li>
-          <img src="img/i6.jpg" alt="animal" />
-        </li>
-      </ul>
+        <ul class="animais-lista js-tabmenu">
+          <li>
+            <img src="img/i1.jpg" alt="animal" />
+          </li>
+          <li>
+            <img src="img/i2.jpg" alt="animal" />
+          </li>
+          <li>
+            <img src="img/i3.jpg" alt="animal" />
+          </li>
+          <li>
+            <img src="img/i4.jpg" alt="animal" />
+          </li>
+          <li>
+            <img src="img/i5.jpg" alt="animal" />
+          </li>
+          <li>
+            <img src="img/i6.jpg" alt="animal" />
+          </li>
+        </ul>
 
-      <div class="animais-descricao js-tab-content" >
-        <section>
-          <h2>Guaxinim</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-           
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
-          </p>
-        </section>
+        <div class="animais-descricao js-tab-content">
+          <section data-anime="show-down">
+            <h2>Guaxinim</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+              itaque, maiores corporis commodi porro totam saepe, adipisci
+              repudiandae debitis maxime laborum? Sit architecto perspiciatis
+              enim.
+            </p>
 
-        <section>
-          <h2>Raposa</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
-          </p>
-        </section>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
+              alias labore doloribus.
+            </p>
+          </section>
 
-        <section>
-          <h2>Preá</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
-          </p>
-        </section>
+          <section data-anime="show-right">
+            <h2>Raposa</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+              itaque, maiores corporis commodi porro totam saepe, adipisci
+              repudiandae debitis maxime laborum? Sit architecto perspiciatis
+              enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+              nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+              Excepturi libero maxime blanditiis, incidunt quaerat corrupti
+              totam fuga, iste similique tenetur rerum obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+              nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+              Excepturi libero maxime blanditiis, incidunt quaerat corrupti
+              totam fuga, iste similique tenetur rerum obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
+              alias labore doloribus.
+            </p>
+          </section>
 
-        <section>
-          <h2>Rolinha</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
-        </section>
+          <section data-anime="show-down">
+            <h2>Preá</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
+              alias labore doloribus.
+            </p>
+          </section>
 
-        <section>
-          <h2>Peba</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
-          </p>
-        </section>
+          <section data-anime="show-rigth">
+            <h2>Rolinha</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+              itaque, maiores corporis commodi porro totam saepe, adipisci
+              repudiandae debitis maxime laborum? Sit architecto perspiciatis
+              enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+              nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+              Excepturi libero maxime blanditiis, incidunt quaerat corrupti
+              totam fuga, iste similique tenetur rerum obcaecati.
+            </p>
+          </section>
 
-        <section>
-          <h2>Teiú</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            itaque, maiores corporis commodi porro totam saepe, adipisci
-            repudiandae debitis maxime laborum? Sit architecto perspiciatis
-            enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            eveniet facilis eligendi modi fugit quod qui quia reiciendis,
-            nesciunt est voluptates dolorem reprehenderit illo dolores quam!
-            Excepturi libero maxime blanditiis, incidunt quaerat corrupti totam
-            fuga, iste similique tenetur rerum obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
-            alias labore doloribus.
-          </p>
-        </section>
+          <section data-anime="show-down">
+            <h2>Peba</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+              itaque, maiores corporis commodi porro totam saepe, adipisci
+              repudiandae debitis maxime laborum? Sit architecto perspiciatis
+              enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+              nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+              Excepturi libero maxime blanditiis, incidunt quaerat corrupti
+              totam fuga, iste similique tenetur rerum obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
+              alias labore doloribus.
+            </p>
+          </section>
+
+          <section data-anime="show-rigth">
+            <h2>Teiú</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+              itaque, maiores corporis commodi porro totam saepe, adipisci
+              repudiandae debitis maxime laborum? Sit architecto perspiciatis
+              enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              eveniet facilis eligendi modi fugit quod qui quia reiciendis,
+              nesciunt est voluptates dolorem reprehenderit illo dolores quam!
+              Excepturi libero maxime blanditiis, incidunt quaerat corrupti
+              totam fuga, iste similique tenetur rerum obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              culpa perferendis nostrum nobis blanditiis soluta suscipit aliquid
+              alias labore doloribus.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="faq grid-section js-scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista js-accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            libero ipsa, corporis commodi deserunt neque similique quidem
+            voluptatem temporibus sed.
+          </dd>
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            libero ipsa, corporis commodi deserunt neque similique quidem
+            voluptatem temporibus sed.
+          </dd>
+          <dt>Qual a diferença?</dt>
+          <dd>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            libero ipsa, corporis commodi deserunt neque similique quidem
+            voluptatem temporibus sed.
+          </dd>
+          <dt>Como proteger?</dt>
+          <dd>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            libero ipsa, corporis commodi deserunt neque similique quidem
+            voluptatem temporibus sed.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section contato" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div class="mapa">
+          <img src="img/mapa.jpg" alt="mapa" />
+        </div>
+
+        <ul class="dados">
+          <li>moisesmengo@live.com</li>
+          <li>+55 (84) 99999-9999</li>
+          <li>Rua das Lampreia, nº 123</li>
+          <li>Natal - RN</li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>Todos os direitos reservados</p>
+      </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="#">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
       </div>
-    </section>  
-
-    <section class="faq grid-section" id="faq">
-      <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista js-accordion">
-        <dt>Qual a idade dos animais?</dt>
-        <dd>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          libero ipsa, corporis commodi deserunt neque similique quidem
-          voluptatem temporibus sed.
-        </dd>
-        <dt>Eles são fantásticos?</dt>
-        <dd>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          libero ipsa, corporis commodi deserunt neque similique quidem
-          voluptatem temporibus sed.
-        </dd>
-        <dt>Qual a diferença?</dt>
-        <dd>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          libero ipsa, corporis commodi deserunt neque similique quidem
-          voluptatem temporibus sed.
-        </dd>
-        <dt>Como proteger?</dt>
-        <dd>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          libero ipsa, corporis commodi deserunt neque similique quidem
-          voluptatem temporibus sed.
-        </dd>
-      </dl>
     </section>
 
-    <section class="grid-section contato" id="contato">
-      <h1 class="titulo">Contato</h1>
-      <div class="mapa">
-        <img src="img/mapa.jpg" alt="mapa" />
-      </div>
-
-      <ul class="dados">
-        <li>moisesmengo@live.com</li>
-        <li>+55 (84) 99999-9999</li>
-        <li>Rua das Lampreia, nº 123</li>
-        <li>Natal - RN</li>
-      </ul>
-    </section>
-
-    <footer class="copy">
-      <p>Todos os direitos reservados</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="js/script.js" type="module"></script>
   </body>
 </html>
