@@ -9,3 +9,6 @@ initAnimaScroll();
 
 import initScrollSuave from "./modules/scroll-suave.js";
 initScrollSuave();
+
+import initModal from './modules/modal.js'
+initModal()
