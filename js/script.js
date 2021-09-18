@@ -18,3 +18,6 @@ initTooltip();
 
 import initDropdown from "./modules/dropdownMenu.js";
 initDropdown();
+
+import initMenuMobile from "./modules/menu-mobile.js";
+initMenuMobile();
