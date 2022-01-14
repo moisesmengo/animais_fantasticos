@@ -21,3 +21,6 @@ initDropdown();
 
 import initMenuMobile from "./modules/menu-mobile.js";
 initMenuMobile();
+
+import initAnimaNumeros from "./modules/anima-numeros.js";
+initAnimaNumeros();
